@@ -1,6 +1,6 @@
 module github.com/regen-network/regen-ledger/v6
 
-go 1.21
+go 1.21.0
 
 require (
 	cosmossdk.io/api v0.3.1
@@ -15,7 +15,7 @@ require (
 	github.com/regen-network/regen-ledger/x/data/v3 v3.0.0-00010101000000-000000000000
 	github.com/regen-network/regen-ledger/x/ecocredit/v4 v4.0.0-00010101000000-000000000000
 	github.com/regen-network/regen-ledger/x/intertx v1.0.0
-	github.com/spf13/cast v1.6.0
+	github.com/spf13/cast v1.10.0
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.9.0
 )
